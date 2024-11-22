@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sidebar</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <i class="fa-solid fa-bars hamburger-menu" onclick="openSidebar()" id="hamburger-menu"></i>
+
+    <div class="container">
+
+        <div class="sidebar" id="sidebar">
+            <!-- <div class="close-menu" onclick="closeSidebar()"> -->
+                <i class="fa-solid fa-circle-xmark close-menub" onclick="closeSidebar()"></i>
+            <!-- </div> -->
+
+            <div class="menu-item">
+                <i class="fa-solid fa-home menu-icon" ></i>
+                <b class="menu-text">Home</b>
+            </div>
+
+            <div class="menu-item">
+                <i class="fa-solid fa-circle-info menu-icon" ></i>
+                <a href="#" class="menu-text">About</a>
+            </div>
+
+            <div class="menu-item">
+                <i class="fa-solid fa-envelope menu-icon" ></i>
+                <a href="#" class="menu-text">Contact</a>
+            </div>
+
+            <div class="menu-item">
+                <i class="fa-solid fa-toolbox menu-icon" ></i>
+                <a href="#" class="menu-text">Preferences</a>
+            </div>
+
+            <div class="menu-item">
+                <i class="fa-solid fa-gear menu-icon" ></i>
+                <a href="#" class="menu-text">Settings</a>
+            </div>
+
+            <br>
+            <hr class="hr-menu">
+            <div class="menu-item">
+                <i class="fa-solid fa-user menu-icon"></i>
+                <a href="#" class="menu-text">Profile</a>
+            </div> 
+            <hr class="hr-menu1">
+        
+            <div class="menu-item">
+                <i class="fa-solid fa-sign-out menu-icon" ></i>
+                <a href="#" class="menu-text">Logout</a>
+            </div>
+            <br>
+            <hr>
+        </div>
+    </div> 
+    
+   
+    <script src="https://kit.fontawesome.com/10e1ccecc8.js" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
